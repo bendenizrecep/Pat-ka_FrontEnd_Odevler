@@ -1,1 +1,1 @@
-# Patike Front-End kursu HTML ödev
+# Patika Front-End kursu HTML ödev
