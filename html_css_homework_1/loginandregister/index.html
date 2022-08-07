@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap / Kayıt Ol</title> 
+    <link  rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="hero">
+        <a type="button" class="backbtn" href="../main.html" >Anasayfa </a> 
+        <div class="formbox"> 
+            <div class="buttonbox">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Giriş Yap</button>
+                <button type="button" class="toggle-btn" onclick="register()">Kayıt Ol</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Kullanıcı Adı" required>
+                <input type="password" class="input-field" placeholder="Şifre" required>
+                <input type="checkbox" class="check-box"><span>Şifremi Hatırla</span>
+                <button type="submit" class="submit-btn">Giriş Yap</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Kullanıcı Adı" required>
+                <input type="password" class="input-field" placeholder="Şifre" required>
+                <input type="email" class="input-field" placeholder="e-mail" required>
+                <input type="checkbox" class="check-box"><span>Sözleşmeyi Okudum ve Kabul Ediyorum</span>
+                <button type="submit"  class="submit-btn">Kayıt Ol</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register(){
+        x.style.left = "-400px"  
+        y.style.left = "50px"
+        z.style.left = "110px"    
+    }
+    function login(){
+        x.style.left = "50px"  
+        y.style.left = "450px"
+        z.style.left = "0px"    
+    }
+    </script>
+
+</body>
+
+</html>

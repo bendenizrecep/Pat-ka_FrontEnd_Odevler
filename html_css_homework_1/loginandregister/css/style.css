@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: .5s;
+}
+.formbox{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 25px;
+    transition: .4s;
+}
+.buttonbox{
+    width: 228px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 5px #a8f9ff;
+    border-radius: 30px;
+    background:  #97f0f7;
+    transition: .4s;
+
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+    transition: .4s;
+}
+.toggle-btn:hover{
+    color: black
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 118px;
+    height: 100%;
+    background: linear-gradient(to right,  #35ddb3, #38c9d3, #32beab);
+    border-radius:30px ;
+    transition: .5s;
+}
+
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    transition: .4s;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right,  #35a0dd, #38c9d3, #32aebe);
+    background-size: 200%;
+    transition: .5s;
+    border-radius: 30px;
+    color: #fff;
+    transition: .4s;
+}
+.submit-btn:hover{
+    background-position: right;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    transition: .4s;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+.backbtn{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: small;
+    text-decoration: none;
+    border-radius: 15px;
+	outline: none;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+	background-image: linear-gradient(to right, #35a0dd, #38c9d3, #32aebe);
+	background-size: 200%;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+    transition: .5s;
+    margin: 5px ;
+    opacity: 0.8;
+}
+.backbtn:hover{
+    text-decoration: underline;
+    background-position: right;
+}
