@@ -1,0 +1,20 @@
+.center{
+    text-align: center;  
+    margin: 0% 7% 0% 7%;
+}
+
+.box{
+    float: left;
+    height: 80px;
+    text-align: center;
+    
+}
+.font{
+    font-size: small;
+}
+.margin{
+    margin-right: 2px;
+}
+.write{
+    margin: 9px;
+}
