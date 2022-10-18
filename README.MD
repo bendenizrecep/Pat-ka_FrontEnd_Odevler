@@ -8,4 +8,5 @@ Patika.dev Front-end path homeworks
 <a href="https://github.com/bendenizrecep/Patika_FrontEnd_Odevler/tree/main/google_1998">Homework_2</a> 
 - Designing the Current Google Home Page
 <a href="https://github.com/bendenizrecep/Patika_FrontEnd_Odevler/tree/main/css-odev2-google_homepage">Homework_3</a> 
-
+- Designing with bootstrap music shop page
+<a href="https://github.com/bendenizrecep/Patika_FrontEnd_Odevler/tree/main/bootstrap_homework_1">
