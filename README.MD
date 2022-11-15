@@ -10,3 +10,5 @@ Patika.dev Front-end path homeworks
 <a href="https://github.com/bendenizrecep/Patika_FrontEnd_Odevler/tree/main/css-odev2-google_homepage">Homework_3</a> 
 - Designing with bootstrap music shop page
 <a href="https://github.com/bendenizrecep/Patika_FrontEnd_Odevler/tree/main/bootstrap_homework_1">Bootstrap HomeWork 1 Music Shop </a>
+- Designing with bootstrap Instagram Clone
+<a href="https://github.com/bendenizrecep/Patika_FrontEnd_Odevler/tree/main/instagramclone"> Instagram Clone </a>
